@@ -6,7 +6,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(Email: ${email}\nPassword: ${password});
+    alert(`Email: ${email}\nPassword: ${password}`);
   };
 
   return (

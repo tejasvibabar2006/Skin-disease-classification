@@ -7,7 +7,7 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(Name: ${name}\nEmail: ${email}\nPassword: ${password});
+    alert(`Name: ${name}\nEmail: ${email}\nPassword: ${password}`);
   };
 
   return (
